@@ -482,7 +482,7 @@ e3hat  <- residuals(r3.est)
     RcmdrPlugin.KMggplot2::theme_simple(base_size = 14, base_family = "sans")
   print(.svkz)
   rm(.df, .nbins)
-  
+
   library("ggpubr")
   Inefficiencies <- ggarrange(.als, .ss84, .pl81, .c90, .bc92, .g05, .klh14t, .klh14p, .bc95, .svkz,
                               ncol = 2, nrow = 5)
